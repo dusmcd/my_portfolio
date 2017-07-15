@@ -1,0 +1,123 @@
+/*general/default styles*/
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #2d3c49;
+  background-color: #f0f5f5;
+  height: 95%;
+  margin-bottom: 5%;
+}
+
+h1 {
+  font-weight: 300;
+}
+
+h2 {
+  color: #7d97ad;
+}
+
+/*general/default styles*/
+
+
+
+
+
+/*nav bar*/
+
+#top-menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: black;
+}
+
+.nav {
+  padding: 1.5em;
+  font-size: 16px;
+  display: flex;
+}
+
+.nav li {
+  width: calc(100% / 3);
+}
+
+li a {
+  color: white;
+}
+
+/*nav bar*/
+
+
+/*main content styles*/
+
+.main-content {
+  width: 80%;
+  background-color: white;
+  padding-bottom: 20px;
+  position: relative;
+  top: 100px;
+}
+
+
+.img-circle {
+  margin-top: 10px;
+}
+
+.description {
+  font-size: 2.5em;
+  font-family: 'Spectral', serif;
+}
+
+.license {
+  font-size: 0.5em;
+}
+
+/*media queries*/
+
+@media screen and (max-width: 1200px) {
+  .description {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .description {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .col-xs-8, .col-xs-4 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .description {
+    font-size: 1.25em;
+  }
+
+  .name-title {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .description {
+    font-size: 1em;
+  }
+}
+
+
+
+
+
+
+
+
+/*media queries*/
