@@ -1,3 +1,21 @@
+/*importing icon fonts*/
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome|zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+
+/*importing icon fonts*/
+
+
 /*general/default styles*/
 
 html {
@@ -37,13 +55,13 @@ h2 {
 }
 
 .nav {
-  padding: 1.5em;
+  padding: 0.5em;
   font-size: 16px;
   display: flex;
 }
 
 .nav li {
-  width: calc(100% / 3);
+  width: calc(100% / 4);
 }
 
 li a {
@@ -54,6 +72,9 @@ li a {
 
 
 /*main content styles*/
+.fontawesome-save {
+  font-size: 35px;
+}
 
 .main-content {
   width: 80%;
@@ -76,6 +97,26 @@ li a {
 .license {
   font-size: 0.5em;
 }
+
+/*footer styles*/
+
+footer {
+  text-align: center;
+  font-size: 30px;
+  padding: 1em;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+
+
 
 /*media queries*/
 
