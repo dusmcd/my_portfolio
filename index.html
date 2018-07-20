@@ -1,95 +1,112 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
-            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-            crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
-    <title>My Portfolio</title>
-  </head>
-  <body>
 
-    <!-- header element will stay fixed on top of the viewport, while the main content will scroll -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
+  <title>My Portfolio</title>
+</head>
 
-    <header id="top-menu">
-      <ul class="nav nav-pills text-center">
-        <li class="fontawesome-save"></li>
-        <li role="presentation"><a href="#">Home</a></li>
-        <li role="presentation"><a href="#about">About</a></li>
-        <li role="presentation"><a href="#featured-work">Projects</a></li>
-      </ul>
-    </header>
+<body>
 
-    <div class="container main-content">
-        <section class="row name-logo">
-          <div class="col-md-6"><img src="img/chicago-logo.jpeg" class="img-responsive img-circle" alt="Chicago"></div>
-          <div class="col-md-6 text-right text-uppercase name-title">
-            <h1>Dustin McDowell</h1>
-            <h3>Full-Stack Developer</h3>
+  <!-- header element will stay fixed on top of the viewport, while the main content will scroll -->
+
+  <header id="top-menu">
+    <ul class="nav nav-pills text-center">
+      <li class="fontawesome-save"></li>
+      <li role="presentation">
+        <a href="#">Home</a>
+      </li>
+      <li role="presentation">
+        <a href="#about">About</a>
+      </li>
+      <li role="presentation">
+        <a href="#featured-work">Projects</a>
+      </li>
+    </ul>
+  </header>
+
+  <div class="container main-content">
+    <section class="row name-logo">
+      <div class="col-md-6">
+        <img src="img/chicago-logo.jpeg" class="img-responsive img-circle" alt="Chicago">
+      </div>
+      <div class="col-md-6 text-right text-uppercase name-title">
+        <h1>Dustin McDowell</h1>
+        <h3>Full-Stack Developer</h3>
+      </div>
+    </section>
+    <hr>
+
+
+    <section class="row banner-img">
+      <div class="col-md-12">
+        <img src="img/banner_mountains.jpeg" alt="Beautiful Lake" class="img-responsive">
+      </div>
+    </section>
+
+    <section class="row" id="featured-work">
+      <div class="col-md-12">
+        <h2>Featured Work</h2>
+      </div>
+    </section>
+
+    <section class="row text-uppercase featured-projects">
+      <div class="col-md-4">
+        <img src="https://images.pexels.com/photos/821222/pexels-photo-821222.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="E-commerce"
+          class="img-responsive">
+        <h4>E-Commerce Platform</h4>
+        <a href="https://github.com/grace-shopper-team-it/grace-shopper">View</a>
+      </div>
+      <div class="col-md-4">
+        <img src="https://images.pexels.com/photos/433308/pexels-photo-433308.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt="Recycle Blue" class="img-responsive">
+        <h4>Recycle Blue</h4>
+        <a href="https://github.com/recycle-blue/recycle-blue-native">View</a>
+      </div>
+      <div class="col-md-4">
+        <img src="img/abstract.jpeg" alt="Abstract" class="img-responsive">
+        <h4>Character Generator</h4>
+        <a href="https://github.com/dusmcd/character_gen">View</a>
+      </div>
+    </section>
+
+    <h2>About Me</h2>
+
+    <section id="about">
+      <div class="row">
+        <div class="col-xs-8">
+          <p class="description">
+            I have a passion for making functional, user-friendly business applications. My training in software development, along with
+            my experience in business and accounting, make me an ideal candidate for any company looking for a full-stack
+            developer.
+          </p>
+        </div>
+        <div class="col-xs-4">
+          <img src="img/business-partnership.svg" alt="handshake" class="handshake-icon" />
+          <div class="text-right license">Icons made by
+            <a href="http://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a>
+            <br> from
+            <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>
+            <br>licensed by
+            <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
           </div>
-        </section>
-        <hr>
-
-
-      <section class="row banner-img">
-        <div class="col-md-12"><img src="img/banner_mountains.jpeg" alt="Beautiful Lake" class="img-responsive"></div>
-      </section>
-
-      <section class="row" id="featured-work">
-        <div class="col-md-12"><h2>Featured Work</h2></div>
-      </section>
-
-      <section class="row text-uppercase featured-projects">
-        <div class="col-md-4">
-          <img src="img/sand.jpg" alt="Sand" class="img-responsive">
-          <h4>Sand</h4>
-          <a href="https://github.com/dusmcd">View</a>
         </div>
-        <div class="col-md-4">
-          <img src="img/hot-air-balloon.jpeg" alt="Balloons" class="img-responsive">
-          <h4>Balloons</h4>
-          <a href="https://github.com/dusmcd">View</a>
-        </div>
-        <div class="col-md-4">
-          <img src="img/abstract.jpeg" alt="Abstract" class="img-responsive">
-          <h4>Abstract</h4>
-          <a href="https://github.com/dusmcd">View</a>
-        </div>
-      </section>
+      </div>
+    </section>
 
-      <h2>About Me</h2>
+    <footer>
+      <a href="https://www.linkedin.com/in/dustin-mcdowell-68397a82" class="zocial-linkedin"> My LinkedIn Page</a>
+    </footer>
 
-      <section id="about">
-        <div class="row">
-          <div class="col-xs-8">
-            <p class="description">
-              I have a passion for making functional, user-friendly business
-              applications. My training in software development, along with my
-              experience in business and accounting, make me an ideal candidate
-              for any company looking for a full-stack developer.
-            </p>
-          </div>
-          <div class="col-xs-4">
-            <img src="img/business-partnership.svg" alt="handshake" class="handshake-icon"/>
-            <div class="text-right license">Icons made by
-              <a href="http://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a><br> from
-              <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> <br>licensed by
-              <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
-            </div>
-          </div>
-        </div>
-      </section>
+  </div>
+</body>
 
-      <footer>
-        <a href="https://www.linkedin.com/in/dustin-mcdowell-68397a82" class="zocial-linkedin"> My LinkedIn Page</a>
-      </footer>
-
-    </div>
-  </body>
 </html>
