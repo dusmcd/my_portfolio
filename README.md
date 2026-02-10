@@ -14,7 +14,7 @@ the applications that I have completed.
 - Alternatively, this code can be run by entering the following command:
 
 ```
-python -m SimpleHTTPServer 8080
+python -m http.server 8080
 
 ```
 
@@ -24,7 +24,7 @@ python -m SimpleHTTPServer 8080
 ## Dependencies
 
 - Updated web browser
-- python (if using the SimpleHTTPServer command)
+- python (if using the http.server command)
 
 ## Relevant Links
 
